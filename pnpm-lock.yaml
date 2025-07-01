@@ -15,8 +15,8 @@ importers:
         specifier: ^24.0.8
         version: 24.0.8
       core-js:
-        specifier: ^3.42.0
-        version: 3.42.0
+        specifier: ^3.43.0
+        version: 3.43.0
     devDependencies:
       '@sveltejs/adapter-node':
         specifier: ^5.2.12
@@ -725,8 +725,8 @@ packages:
     resolution: {integrity: sha512-U71cyTamuh1CRNCfpGY6to28lxvNwPG4Guz/EVjgf3Jmzv0vlDp1atT9eS5dDjMYHucpHbWns6Lwf3BKz6svdw==}
     engines: {node: '>= 0.6'}
 
-  core-js@3.42.0:
-    resolution: {integrity: sha512-Sz4PP4ZA+Rq4II21qkNqOEDTDrCvcANId3xpIgB34NDkWc3UduWj2dqEtN9yZIq8Dk3HyPI33x9sqqU5C8sr0g==}
+  core-js@3.43.0:
+    resolution: {integrity: sha512-N6wEbTTZSYOY2rYAn85CuvWWkCK6QweMn7/4Nr3w+gDBeBhk/x4EJeY6FPo4QzDoJZxVTv8U7CMvgWk6pOHHqA==}
 
   core-util-is@1.0.3:
     resolution: {integrity: sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==}
@@ -1713,7 +1713,7 @@ snapshots:
 
   cookie@0.6.0: {}
 
-  core-js@3.42.0: {}
+  core-js@3.43.0: {}
 
   core-util-is@1.0.3: {}
 

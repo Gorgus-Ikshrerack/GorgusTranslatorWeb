@@ -70,7 +70,7 @@ jobs:
         run: sudo apt-get update
 
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: 'true'
 
@@ -87,7 +87,7 @@ jobs:
 
       - name: Checkout Python
         if: ${{ env.PYTHON_VERSION != '3.15' }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: 'python/cpython'
           path: "cpython"
@@ -95,7 +95,7 @@ jobs:
 
       - name: Checkout Python (No Explict Ref)
         if: ${{ env.PYTHON_VERSION == '3.15' }}
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: 'python/cpython'
           path: "cpython"
@@ -149,7 +149,7 @@ jobs:
 
       - name: Checkout EMSDK
         if: steps.cache-cpython.outputs.cache-hit != 'true' && steps.cache-em-cache.outputs.cache-hit != 'true'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           repository: 'emscripten-core/emsdk'
           path: "emsdk"
